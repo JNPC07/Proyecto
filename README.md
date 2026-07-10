@@ -21,14 +21,23 @@ El programa incluye:
 ## Funcionalidad
 
 - 🎯 Selección de modo de juego:  Se da la opción de elegir al usuario el nivel de dificultad al que se quiere enfrenatar. Dependiendo de su elección se abrirá el txt palabras_facil, palabras_medio o palabras_dificil.
+<img src="imagen1.png" width="600">
 - 👤 Registro e inicio de sesión de usuarios: Se implememtó el registro e inicio de sesión con la finalidad de mantener un historial de los puntajes de nuestros usuarios e ir publicando a nuestros mejores jugadores.
+
 - 🔐Validación de usuario y contraseña: Se busca dentro de nuestro cvs "listaJugadores" la existencia de ese usuario y contraseña. Si no existe se da la opción de Registro.
-- 🎲 Selección aleatoria de palabras: El txt elegido será escaneado por un random para elegir de manera aleatoria una sola palabra .
+  
+- 🎲 Selección aleatoria de palabras: El txt elegido será escaneado por un random para elegir de manera aleatoria una sola palabra.
+  
 - 🔠 Conversión automática a mayúsculas: Todas las desiciones que tome el usuario y sean escritas en la terminal serán pasadas por un subprograma para convertirlas a mayúsculas.
+
 - 🚫 Validación de números y símbolos: Si se detecta cualquier caracter especial escrita por el usuario se negará su validez y se volverá a pedir que ingrese de nuevo su opción sin este error.
+  
 - 💀 Muerte instantánea si se falla la palabra completa.
+
 - 🐢 Dibujo progresivo con CTurtle.
+
 - 🏆 Sistema de puntajes.
+  
 - 📊 Tabla de mejores puntuaciones.
 
 ## Diagrama de uso
@@ -73,8 +82,7 @@ flowchart TD
     V --> W[Preguntar si desea jugar otra vez]
     W --> D
 ```
-## Vista del programa
 
-### Esqueleto del programa
+## Posibles mejoras
+ 
 
-<img src="imagenes/imagen1.png" width="600">
